@@ -5,7 +5,7 @@ use base 'CGI::Untaint::printable';
 use URI::Find;
 
 use vars qw/$VERSION/;
-$VERSION = '0.02';
+$VERSION = '0.03';
 
 sub is_valid {
   my $self = shift;

@@ -1,6 +1,6 @@
 #!/usr/bin/perl -w
 
-use Test::More tests => 9;
+use Test::More tests => 15;
 
 use strict;
 use CGI;
@@ -30,6 +30,7 @@ $count = 0;
 foreach (@ok) {
   ++$count;
   my $url = $data->extract(-as_url => "var$count");
+  isa_ok $url, 'URI::URL';
   ok($url, "Valid: $url");
 }
 

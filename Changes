@@ -1,5 +1,8 @@
 Revision history 
 
+0.03  Sun Feb  3 14:24:29 GMT 2002
+	- The CPAN shell doesn't like my prerequisites.
+
 0.02  Mon Oct 29 11:17:07 GMT 2001
 	- Fixed small documentation bug
            (Thanks to Tatsuhiko Miyagawa)
