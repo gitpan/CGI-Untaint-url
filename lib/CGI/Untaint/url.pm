@@ -5,7 +5,7 @@ use base 'CGI::Untaint::printable';
 use URI::Find;
 
 use vars qw/$VERSION/;
-$VERSION = '0.01';
+$VERSION = '0.02';
 
 sub is_valid {
   my $self = shift;
@@ -44,8 +44,8 @@ so it will accept any of (for example):
 
 L<URI::URL> for much more information here.
 
-The resulting date will be a Date::Simple object. 
-L<Date::Simple> for more information on this.
+The resulting value will be a URI::URL object. 
+L<URI::URL> for more information on this.
 
 =head1 SEE ALSO
 
